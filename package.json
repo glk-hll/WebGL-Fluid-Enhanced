@@ -18,7 +18,7 @@
     }
   },
   "scripts": {
-    "build": "tsc --project tsconfig.build.json && bun build ./src/index.ts --outdir ./build --minify",
+    "b": "tsc --project tsconfig.build.json && bun build ./src/index.ts --outdir ./build --minify",
     "dev": "bun run --hot server.ts",
     "watch": "tsc --watch --project tsconfig.build.json --emitDeclarationOnly false",
     "lint": "eslint --ext '**/*.ts}"

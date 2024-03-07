@@ -1620,7 +1620,7 @@ const webGLFluidEnhanced = {
 
       if (!activeConfig.TRANSPARENT)
         drawColor(target, normalizeColor(HEXtoRGB(activeConfig.BACK_COLOR)));
-      if (target == null && activeConfig.TRANSPARENT) drawCheckerboard(target);
+      // if (target == null && activeConfig.TRANSPARENT) drawCheckerboard(target);
       drawDisplay(target);
     }
 
