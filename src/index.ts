@@ -25,7 +25,7 @@ SOFTWARE.
 
 // Modified by Michael Brusegard
 
-type FluidSimulationConfigProps = {
+export type FluidSimulationConfigProps = {
   SIM_RESOLUTION?: number;
   DYE_RESOLUTION?: number;
   CAPTURE_RESOLUTION?: number;
